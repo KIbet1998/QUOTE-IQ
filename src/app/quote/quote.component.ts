@@ -9,10 +9,10 @@ import { Quote } from "../quote";
 export class QuoteComponent implements OnInit {
   quotes:Quote[] = [
     new Quote(1, 'Ronnie', 'Kennedy','Change the world by being yourself',new Date(),0,0),
-    new Quote(1, 'Ronnie', 'Hillary', 'Every moment is a fresh beginning',new Date(),0,0),
-    new Quote(1, 'Ronnie', 'Gilbert', 'Never regret anything that once made you happy',new Date(),0,0),
-    new Quote(1, 'Ronnie', 'Mercy','Die with memories not dreams',new Date(),0,0),
-    new Quote(1, 'Ronnie', 'Nickman', 'Aspire to inspire before we expire',new Date(),0,0),
+    new Quote(1, 'Hillary', 'Hillary', 'Every moment is a fresh beginning',new Date(),0,0),
+    new Quote(1, 'Gilbert', 'Gilbert', 'Never regret anything that once made you happy',new Date(),0,0),
+    new Quote(1, 'Mercy', 'Mercy','Die with memories not dreams',new Date(),0,0),
+    new Quote(1, 'Nickman', 'Nickman', 'Aspire to inspire before we expire',new Date(),0,0),
    
     
   ];
